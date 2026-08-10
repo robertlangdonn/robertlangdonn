@@ -1,6 +1,6 @@
 ### Prasad Khake
 
-I'm an inference-systems engineer: I turn efficiency papers and tuning folklore into **measured, reproducible truth** — on hardware from a 16 GB MacBook to rented datacenter GPUs. The recurring question in my work: **what actually limits LLM inference, and how do those limits change across scales?**
+I'm an inference-systems engineer testing efficiency papers and tuning folklore on hardware from a 16 GB MacBook to rented datacenter GPUs. My work asks **what actually limits LLM inference — and how those limits change across scales.** I drive iterative problem-solving, with AI coding tools handling lookup, verification, and execution.
 
 **KV Cache Reality Lab** — [kv-cache-tax](https://github.com/robertlangdonn/kv-cache-tax): one model, one harness, cross-hardware (M3 vs rented NVIDIA L4), four measured legs:
 - [The KV-cache tax](https://prasadkhake.com/blog/kv-cache-tax-m3-vs-l4) — what long context costs; includes a proven thermal-throttle finding on fanless Apple Silicon.
@@ -23,7 +23,7 @@ I'm an inference-systems engineer: I turn efficiency papers and tuning folklore 
 - [ondevice-bench](https://github.com/robertlangdonn/ondevice-bench) — execution-checked local-LLM benchmarks (no rubric scoring), including [three bugs in my own benchmark](https://prasadkhake.com/blog/benchmark-bugs-that-inflated-my-scores).
 - [lora-toolcalls](https://github.com/robertlangdonn/lora-toolcalls) — LoRA tool-calling fine-tune on a MacBook, with the adapter's inference cost measured, not assumed.
 
-Professionally: production LLM pipelines (output quality gates, hallucination catching, webhook-driven retries with idempotency) and end-to-end automation architecture. Before that: [paperd.ink](https://www.paperd.ink), an open-source ESP32 e-paper board in makers' hands across 20+ countries, and [vcfkit](https://vcfkit.dev), a Rust genomics CLI 4× faster than bcftools.
+Professionally: production LLM pipelines (output quality gates, hallucination catching, idempotent webhook-driven retries) and end-to-end automation architecture. Previously: [paperd.ink](https://www.paperd.ink), an open-source ESP32 e-paper board used by makers across 20+ countries, and [vcfkit](https://vcfkit.dev), a Rust genomics CLI 4× faster than bcftools.
 
 Writing at **[prasadkhake.com](https://prasadkhake.com)** · **[On Device](https://ondevice.substack.com)**
 
