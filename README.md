@@ -1,6 +1,6 @@
 ### Prasad Khake
 
-I'm an inference-systems engineer testing efficiency papers and tuning folklore on hardware from a 16 GB MacBook to rented datacenter GPUs. My work asks **what actually limits LLM inference — and how those limits change across scales.** I drive iterative problem-solving, with AI coding tools handling lookup, verification, and execution.
+I'm an inference-systems engineer testing efficiency papers and tuning folklore on hardware from a 16 GB MacBook to rented datacenter GPUs. My work asks **what actually limits LLM inference — and how those limits change across scales.** I drive iterative problem-solving, with coding agents handling lookup, verification, and execution.
 
 **KV Cache Reality Lab** — [kv-cache-tax](https://github.com/robertlangdonn/kv-cache-tax): one model, one harness, cross-hardware (M3 vs rented NVIDIA L4), four measured legs:
 - [The KV-cache tax](https://prasadkhake.com/blog/kv-cache-tax-m3-vs-l4) — what long context costs; includes a proven thermal-throttle finding on fanless Apple Silicon.
