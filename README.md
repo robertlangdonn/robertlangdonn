@@ -13,6 +13,7 @@ I'm an inference-systems engineer: I turn efficiency papers and tuning folklore 
 
 **Open source** (as robertlangdonn)
 - [mlx-lm](https://github.com/ml-explore/mlx-lm): merged [#1349](https://github.com/ml-explore/mlx-lm/pull/1349) (Gemma 4 unified checkpoint loading); [#1329](https://github.com/ml-explore/mlx-lm/pull/1329) approved (tekken-v13 detokenizer root-cause, [writeup](https://prasadkhake.com/blog/mlx-tekken-detokenizer)); five more model-correctness PRs in review.
+- [villa](https://github.com/ScrollPrize/villa) ([Vesuvius Challenge](https://scrollprize.org)): merged [#1177](https://github.com/ScrollPrize/villa/pull/1177) (zarr 3 multiscale read fix) and [#1373](https://github.com/ScrollPrize/villa/pull/1373) (opt-in chunk cache); awarded a $1,000 Progress Prize.
 - [vLLM #49050](https://github.com/vllm-project/vllm/pull/49050) (in review): measured FP8-KV-cache performance documentation, backed by the Reality Lab data.
 - [llm-compressor #2938](https://github.com/vllm-project/llm-compressor/pull/2938) (in review): Cohere2MoE + DeepseekV2 quantization mappings.
 - [vllm-metal #382](https://github.com/vllm-project/vllm-metal/pull/382) (merged).
