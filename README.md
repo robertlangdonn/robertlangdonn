@@ -12,10 +12,10 @@ I'm an inference-systems engineer testing efficiency papers and tuning folklore 
 - [A measured audit of Llama-3.1-8B on a rented L4](https://prasadkhake.com/blog/inference-audit-8b-rag): FP8 cuts cost from $1.00 to $0.36 per million output tokens; everything else I tested — including the tuning-guide favorites — added nothing on top.
 
 **Open source** (as robertlangdonn)
-- [mlx-lm](https://github.com/ml-explore/mlx-lm): merged [#1349](https://github.com/ml-explore/mlx-lm/pull/1349) (Gemma 4 unified checkpoint loading); [#1329](https://github.com/ml-explore/mlx-lm/pull/1329) approved (tekken-v13 detokenizer root-cause, [writeup](https://prasadkhake.com/blog/mlx-tekken-detokenizer)); five more model-correctness PRs in review.
+- [mlx-lm](https://github.com/ml-explore/mlx-lm): merged [#1349](https://github.com/ml-explore/mlx-lm/pull/1349) (Gemma 4 unified checkpoint loading); [#1329](https://github.com/ml-explore/mlx-lm/pull/1329) approved (tekken-v13 detokenizer root-cause, [writeup](https://prasadkhake.com/blog/mlx-tekken-detokenizer)); [#1552](https://github.com/ml-explore/mlx-lm/pull/1552) (deepseek_v32 sparse-attention indexer fix) in review.
 - [villa](https://github.com/ScrollPrize/villa) ([Vesuvius Challenge](https://scrollprize.org)): merged [#1177](https://github.com/ScrollPrize/villa/pull/1177) (zarr 3 multiscale read fix) and [#1373](https://github.com/ScrollPrize/villa/pull/1373) (opt-in chunk cache); awarded a $1,000 Progress Prize.
 - [vLLM #49050](https://github.com/vllm-project/vllm/pull/49050) (in review): measured FP8-KV-cache performance documentation, backed by the Reality Lab data.
-- [llm-compressor #2938](https://github.com/vllm-project/llm-compressor/pull/2938) (in review): Cohere2MoE + DeepseekV2 quantization mappings.
+- [llm-compressor #2938](https://github.com/vllm-project/llm-compressor/pull/2938) (merged): Cohere2MoE + DeepseekV2 quantization mappings.
 - [vllm-metal #382](https://github.com/vllm-project/vllm-metal/pull/382) (merged).
 
 **From scratch, honestly benchmarked**
